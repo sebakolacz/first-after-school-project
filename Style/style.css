@@ -121,22 +121,18 @@ body {
       }
       
       .navigation {
-        /* height: 200px; */
-        /* width: 0; */
         background-color: transparent;
         position: absolute;
         top: 0;
         left: 0;
         transform: translateX(100vw);
-        /* display: none; */
         overflow: visible;
       }
       
       .navigation--active {
-        transform: translateX(55vw);
+        transform: translateX(50vw);
         top: 0;
         background-color: transparent;
-        /* display: none; */
       }
       
       .navigation__list {
@@ -149,9 +145,8 @@ body {
       }
       .navigation__item a {
         text-decoration: none;
-        /* color: black; */
         color: lightgrey;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
     /* hamburger menu */
 
@@ -179,7 +174,7 @@ body {
 
     .third {
         width: 100%;
-        height: 650px;
+        height: 950px;
         background-color: var(--gray);
     }
     .third__projects {
@@ -223,25 +218,26 @@ body {
     }
     .third__images {
         width: 100%;
-        height: 400px;
+        height: 700px;
         border-top: 3px solid var(--red);
     }
-    .third__images-display:last-child {
-        display: none;
+    .third__images-display {
+        width: 100%;
+        height: 350px;
+        display: flex;
     }
-    /* .third__images-display {
-        width: 300px;
-        height: 300px;
-    } */
     .third__image {
         width: 100%;
         background-image: url("../Assets/mh.jpg");
         background-size: cover;
     }
-    .third__image:first-child {
+    .third__image:nth-child(1) {
         display: none;
     }
-    .third__image:last-child {
+    .third__image:nth-child(2) {
+        display: none;
+    }
+    .third__image:nth-child(3) {
         display: none;
     }
     .third__projects-components {
@@ -282,7 +278,7 @@ body {
     }
     .fourth__footer-text {
         color: gray;
-        padding: 50px 0 50px;
+        padding: 0 0 50px;
     }
     .fourth__footer-icons {
         display: flex;
@@ -332,7 +328,7 @@ body {
       }
 
       .navigation--active {
-        transform: translateX(65vw);
+        transform: translateX(60vw);
       }
 }
 
@@ -460,9 +456,15 @@ body {
         display: flex;
     }
     .third__image {
-        width: 25vw;
+        width: 50vw;
         background-image: url("../Assets/mh.jpg");
         background-size: cover;
+    }
+    .third__image:nth-child(2) {
+        display: none;
+    }
+    .third__image:nth-child(3) {
+        display: none;
     }
     .third__projects-components {
         display: none;
@@ -497,7 +499,7 @@ body {
     }
     .fourth__footer-text {
         color: gray;
-        padding: 50px 0;
+        padding: 0 0 50px;
     }
     .fourth__footer-icons {
         display: flex;
@@ -694,7 +696,7 @@ body {
     }
     .fourth__footer-text {
         color: gray;
-        padding: 50px 0;
+        padding: 0 0 50px;
     }
     .fourth__footer-icons {
         display: flex;
