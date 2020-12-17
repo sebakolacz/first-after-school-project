@@ -5,7 +5,6 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
 }
 
 .first {
@@ -19,6 +18,7 @@ body {
 @media (min-width: 320px) AND (max-width: 640px) {
     .first {
         height: 1100px;
+        overflow: hidden;
     }
     .first__header {
         width: 90vw;
