@@ -18,11 +18,11 @@ body {
 
 @media (min-width: 320px) AND (max-width: 640px) {
     .first {
-        height: 120vh;
+        height: 1100px;
     }
     .first__header {
         width: 90vw;
-        height: 7vh;
+        height: 50px;
     }
     .first__header--logo {
         font-size: 1.8rem;
